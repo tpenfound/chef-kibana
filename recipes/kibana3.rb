@@ -31,4 +31,5 @@ template File.join(node['kibana']['base_dir'], config_path) do
   group node['kibana']['group']
   mode '0644'
   variables('es_port' => node['kibana']['elasticsearch']['port'])
+  action :create_if_missing
 end
