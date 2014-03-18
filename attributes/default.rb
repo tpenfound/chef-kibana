@@ -3,7 +3,7 @@
 #<> Kibana version
 default['kibana']['version'] = '2'
 #<> Kibana3 exact version
-default['kibana']['kibana3_version'] = '3.0.0milestone4'
+default['kibana']['kibana3_version'] = '3.0.0'
 #<> The base directory of kibana.
 default['kibana']['base_dir'] = '/opt/kibana'
 #<> The user under which Kibana is installed.
