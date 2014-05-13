@@ -37,6 +37,8 @@ default['kibana']['interface'] = node['ipaddress']
 default['kibana']['port'] = 5601
 #<> An Array of the elasticsearch service hosts.
 default['kibana']['elasticsearch']['hosts'] = ['127.0.0.1']
+default['kibana']['kibana3_elasticsearch_host']='window.location.hostname'
+
 #<> The port of the elasticsearch http service.
 default['kibana']['elasticsearch']['port'] = 9200
 #<> The which fields are shown by default.
